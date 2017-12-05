@@ -1,0 +1,16 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</head>
+  <body>
+    <h1> Test de passage de paramètres </h1>
+    <form action="servlet-Insert" method="get">
+      nom : <input type=text name=nom><p>
+	prenom : <input type=password name=prenom><p>
+	<br>
+	<input type="submit">
+	<input type="reset">
+    </form>
+  </body>
+  </form>

@@ -1,0 +1,19 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+   <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+</HEAD>
+<BODY>
+
+  <form action="url" method="post">
+    entrez votre prenom
+    <input type="text" size="20" name=prenom value="">
+    <br>
+   <input type="submit">
+   <input type="reset">
+   </form>
+
+
+
+</BODY>
+</HTML>

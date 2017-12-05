@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+<HTML>
+<HEAD>
+   <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+   <% import="java.sql.*", errorPage="erreur.jsp" %>
+</HEAD>
+<BODY>
+<%
+Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
+Connection con = DriverManager.getConnection(url, "admin", mdp");
+Statement stmt = con.createStatement();
+%>
+<% String nom = session.getAttribute("nom");
+   if (nom == null){
+      ResultSet rs = stmt.executeQuery("insert into} 
+
+
+
+
+</BODY>
+</HTML>

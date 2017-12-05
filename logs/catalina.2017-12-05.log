@@ -1,0 +1,472 @@
+05-Dec-2017 10:37:42.172 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 10:37:42.174 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 10:37:42.175 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 10:37:42.176 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 10:37:42.176 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 10:37:42.176 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 10:37:42.176 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 10:37:42.176 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 10:37:42.176 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 10:37:42.300 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:37:42.313 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 10:37:42.319 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:37:42.319 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 10:37:42.320 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 496 ms
+05-Dec-2017 10:37:42.344 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 10:37:42.344 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 10:37:42.351 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 10:37:42.646 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:42.687 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [335] ms
+05-Dec-2017 10:37:42.687 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 10:37:42.776 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:42.782 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [95] ms
+05-Dec-2017 10:37:42.783 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 10:37:42.842 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:42.844 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [62] ms
+05-Dec-2017 10:37:42.844 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 10:37:42.908 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:42.910 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [65] ms
+05-Dec-2017 10:37:42.910 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 10:37:42.963 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:42.965 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [55] ms
+05-Dec-2017 10:37:42.965 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 10:37:43.021 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:43.023 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [58] ms
+05-Dec-2017 10:37:43.024 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 10:37:43.080 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:43.084 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [60] ms
+05-Dec-2017 10:37:43.085 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 10:37:43.136 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:43.138 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [54] ms
+05-Dec-2017 10:37:43.138 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 10:37:43.450 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:43.481 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [343] ms
+05-Dec-2017 10:37:43.482 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 10:37:43.536 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:37:43.537 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [55] ms
+05-Dec-2017 10:37:43.539 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:37:43.544 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:37:43.545 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1225 ms
+05-Dec-2017 10:42:53.941 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 10:42:53.942 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:42:53.994 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:42:54.045 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 10:42:54.077 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:42:54.079 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:42:54.079 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:42:54.080 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:42:57.720 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 10:42:57.722 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 10:42:57.722 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 10:42:57.722 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 10:42:57.722 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 10:42:57.722 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 10:42:57.723 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 10:42:57.724 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 10:42:57.724 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 10:42:57.819 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:42:57.828 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 10:42:57.833 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:42:57.834 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 10:42:57.834 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 395 ms
+05-Dec-2017 10:42:57.854 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 10:42:57.854 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 10:42:57.860 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 10:42:58.135 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.171 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [310] ms
+05-Dec-2017 10:42:58.171 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 10:42:58.253 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.258 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [86] ms
+05-Dec-2017 10:42:58.258 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 10:42:58.312 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.313 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [55] ms
+05-Dec-2017 10:42:58.314 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 10:42:58.364 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.365 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [52] ms
+05-Dec-2017 10:42:58.366 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 10:42:58.418 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.420 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [53] ms
+05-Dec-2017 10:42:58.420 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 10:42:58.486 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.489 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [68] ms
+05-Dec-2017 10:42:58.489 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 10:42:58.544 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.548 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [59] ms
+05-Dec-2017 10:42:58.548 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 10:42:58.597 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.599 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [51] ms
+05-Dec-2017 10:42:58.599 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 10:42:58.878 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.904 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [304] ms
+05-Dec-2017 10:42:58.904 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 10:42:58.959 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:42:58.964 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [60] ms
+05-Dec-2017 10:42:58.966 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:42:58.975 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:42:58.982 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1147 ms
+05-Dec-2017 10:48:17.288 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 10:48:17.289 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:48:17.341 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:48:17.392 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 10:48:17.430 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:48:17.431 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:48:17.434 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:48:17.435 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:48:19.690 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 10:48:19.691 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 10:48:19.692 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 10:48:19.693 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 10:48:19.693 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 10:48:19.693 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 10:48:19.693 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 10:48:19.693 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 10:48:19.693 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 10:48:19.796 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:48:19.804 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 10:48:19.810 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:48:19.811 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 10:48:19.811 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 396 ms
+05-Dec-2017 10:48:19.832 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 10:48:19.832 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 10:48:19.838 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 10:48:20.101 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.140 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [301] ms
+05-Dec-2017 10:48:20.141 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 10:48:20.230 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.235 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [95] ms
+05-Dec-2017 10:48:20.235 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 10:48:20.297 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.299 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [64] ms
+05-Dec-2017 10:48:20.299 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 10:48:20.351 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.353 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [54] ms
+05-Dec-2017 10:48:20.354 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 10:48:20.405 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.407 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [54] ms
+05-Dec-2017 10:48:20.407 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 10:48:20.468 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.470 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [63] ms
+05-Dec-2017 10:48:20.470 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 10:48:20.524 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.528 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [58] ms
+05-Dec-2017 10:48:20.528 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 10:48:20.578 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.580 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [52] ms
+05-Dec-2017 10:48:20.580 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 10:48:20.867 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.894 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [314] ms
+05-Dec-2017 10:48:20.894 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 10:48:20.948 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:48:20.950 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [56] ms
+05-Dec-2017 10:48:20.952 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 10:48:20.962 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 10:48:20.963 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1151 ms
+05-Dec-2017 10:53:51.125 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/tp10] a démarré
+05-Dec-2017 10:53:51.206 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 10:53:51.208 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+05-Dec-2017 11:15:53.981 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 11:15:53.982 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:15:54.034 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:15:54.085 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 11:15:54.119 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:15:54.121 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:15:54.124 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:15:54.125 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:15:56.336 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 11:15:56.338 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:15:56.339 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 11:15:56.340 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 11:15:56.431 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:15:56.439 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:15:56.444 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:15:56.445 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:15:56.446 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 376 ms
+05-Dec-2017 11:15:56.467 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 11:15:56.467 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 11:15:56.473 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 11:15:56.728 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:56.766 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [292] ms
+05-Dec-2017 11:15:56.766 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 11:15:56.848 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:56.852 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [86] ms
+05-Dec-2017 11:15:56.853 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 11:15:56.907 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:56.909 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [56] ms
+05-Dec-2017 11:15:56.909 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 11:15:56.959 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:56.961 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [52] ms
+05-Dec-2017 11:15:56.961 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 11:15:57.012 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:57.014 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [53] ms
+05-Dec-2017 11:15:57.015 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 11:15:57.073 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:57.075 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [61] ms
+05-Dec-2017 11:15:57.076 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 11:15:57.129 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:57.133 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [57] ms
+05-Dec-2017 11:15:57.134 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 11:15:57.183 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:57.185 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [52] ms
+05-Dec-2017 11:15:57.185 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 11:15:57.513 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:57.542 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [356] ms
+05-Dec-2017 11:15:57.542 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 11:15:57.598 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:15:57.600 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [57] ms
+05-Dec-2017 11:15:57.602 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:15:57.610 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:15:57.612 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1166 ms
+05-Dec-2017 11:17:39.287 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 11:17:39.288 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:17:39.340 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:17:39.391 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 11:17:39.428 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:17:39.430 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:17:39.431 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:17:39.432 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:17:41.119 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 11:17:41.121 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 11:17:41.121 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 11:17:41.121 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 11:17:41.121 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 11:17:41.121 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 11:17:41.122 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:17:41.123 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:17:41.123 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 11:17:41.123 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 11:17:41.216 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:17:41.224 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:17:41.230 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:17:41.231 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:17:41.231 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 376 ms
+05-Dec-2017 11:17:41.252 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 11:17:41.252 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 11:17:41.258 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 11:17:41.510 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.548 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [289] ms
+05-Dec-2017 11:17:41.548 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 11:17:41.630 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [87] ms
+05-Dec-2017 11:17:41.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 11:17:41.687 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.689 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [54] ms
+05-Dec-2017 11:17:41.689 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 11:17:41.740 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.742 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [53] ms
+05-Dec-2017 11:17:41.742 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 11:17:41.797 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.799 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [57] ms
+05-Dec-2017 11:17:41.799 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 11:17:41.857 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.859 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [60] ms
+05-Dec-2017 11:17:41.859 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 11:17:41.910 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.914 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [55] ms
+05-Dec-2017 11:17:41.914 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 11:17:41.961 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:41.963 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [49] ms
+05-Dec-2017 11:17:41.964 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 11:17:42.244 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:42.271 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [308] ms
+05-Dec-2017 11:17:42.271 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 11:17:42.329 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:17:42.331 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [59] ms
+05-Dec-2017 11:17:42.333 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:17:42.338 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:17:42.341 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1109 ms
+05-Dec-2017 11:18:12.086 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 11:18:12.087 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:18:12.139 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:18:12.190 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 11:18:12.239 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:18:12.241 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:18:12.242 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:18:12.242 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:18:13.747 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 11:18:13.749 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:18:13.750 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 11:18:13.751 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 11:18:13.844 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:18:13.853 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:18:13.858 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:18:13.859 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:18:13.859 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 380 ms
+05-Dec-2017 11:18:13.880 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 11:18:13.880 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 11:18:13.886 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 11:18:14.136 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.172 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [285] ms
+05-Dec-2017 11:18:14.172 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 11:18:14.253 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.258 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [86] ms
+05-Dec-2017 11:18:14.258 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 11:18:14.311 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.313 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [54] ms
+05-Dec-2017 11:18:14.313 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 11:18:14.368 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.370 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [57] ms
+05-Dec-2017 11:18:14.370 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 11:18:14.416 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.418 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [48] ms
+05-Dec-2017 11:18:14.418 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 11:18:14.469 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.471 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [53] ms
+05-Dec-2017 11:18:14.471 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 11:18:14.522 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.526 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [54] ms
+05-Dec-2017 11:18:14.526 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 11:18:14.573 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.575 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [49] ms
+05-Dec-2017 11:18:14.575 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 11:18:14.739 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.767 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [192] ms
+05-Dec-2017 11:18:14.767 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 11:18:14.823 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:18:14.824 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [57] ms
+05-Dec-2017 11:18:14.826 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:18:14.831 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:18:14.834 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 974 ms
+05-Dec-2017 11:21:28.681 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 11:21:28.682 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:21:28.734 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:21:28.785 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 11:21:28.823 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:21:28.824 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:21:28.825 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:21:28.826 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:21:30.473 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+05-Dec-2017 11:21:30.475 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+05-Dec-2017 11:21:30.476 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+05-Dec-2017 11:21:30.568 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:21:30.576 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:21:30.583 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:21:30.584 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 11:21:30.585 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 382 ms
+05-Dec-2017 11:21:30.607 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 11:21:30.607 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 11:21:30.613 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 11:21:30.882 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:30.927 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [313] ms
+05-Dec-2017 11:21:30.927 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+05-Dec-2017 11:21:31.035 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.040 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [113] ms
+05-Dec-2017 11:21:31.040 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 11:21:31.094 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.096 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp10] has finished in [56] ms
+05-Dec-2017 11:21:31.096 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+05-Dec-2017 11:21:31.161 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.163 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [67] ms
+05-Dec-2017 11:21:31.163 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+05-Dec-2017 11:21:31.216 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.219 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [56] ms
+05-Dec-2017 11:21:31.219 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+05-Dec-2017 11:21:31.283 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.285 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [66] ms
+05-Dec-2017 11:21:31.285 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+05-Dec-2017 11:21:31.342 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.347 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [62] ms
+05-Dec-2017 11:21:31.347 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 11:21:31.405 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.407 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [60] ms
+05-Dec-2017 11:21:31.408 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+05-Dec-2017 11:21:31.684 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.710 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [302] ms
+05-Dec-2017 11:21:31.710 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 11:21:31.766 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 11:21:31.768 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/tp9] has finished in [58] ms
+05-Dec-2017 11:21:31.770 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:21:31.782 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:21:31.785 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1200 ms
+05-Dec-2017 11:52:17.004 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 11:52:17.004 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:52:17.055 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:52:17.106 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 11:52:17.148 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:52:17.149 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 11:52:17.151 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 11:52:17.151 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

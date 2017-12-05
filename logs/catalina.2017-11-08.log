@@ -1,0 +1,266 @@
+08-Nov-2017 11:34:11.987 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+08-Nov-2017 11:34:11.989 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+08-Nov-2017 11:34:11.989 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+08-Nov-2017 11:34:11.989 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Nov-2017 11:34:11.989 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+08-Nov-2017 11:34:11.989 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2017 11:34:11.990 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:34:11.991 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:34:11.991 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+08-Nov-2017 11:34:11.991 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Nov-2017 11:34:12.107 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:34:12.119 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:34:12.125 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:34:12.126 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:34:12.126 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 492 ms
+08-Nov-2017 11:34:12.148 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Nov-2017 11:34:12.148 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+08-Nov-2017 11:34:12.155 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+08-Nov-2017 11:34:12.400 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [244] ms
+08-Nov-2017 11:34:12.400 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+08-Nov-2017 11:34:12.445 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [44] ms
+08-Nov-2017 11:34:12.445 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+08-Nov-2017 11:34:12.470 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [25] ms
+08-Nov-2017 11:34:12.471 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+08-Nov-2017 11:34:12.495 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [23] ms
+08-Nov-2017 11:34:12.495 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+08-Nov-2017 11:34:12.510 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [15] ms
+08-Nov-2017 11:34:12.510 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+08-Nov-2017 11:34:12.539 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [28] ms
+08-Nov-2017 11:34:12.539 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+08-Nov-2017 11:34:12.559 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [20] ms
+08-Nov-2017 11:34:12.560 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+08-Nov-2017 11:34:12.902 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [342] ms
+08-Nov-2017 11:34:12.904 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:34:12.910 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:34:12.910 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 784 ms
+08-Nov-2017 11:39:20.649 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Nov-2017 11:39:20.650 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:39:20.702 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:39:20.753 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Nov-2017 11:39:20.793 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:39:20.794 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:39:20.796 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:39:20.796 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:39:23.934 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+08-Nov-2017 11:39:23.936 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2017 11:39:23.937 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2017 11:39:23.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:39:23.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:39:23.938 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+08-Nov-2017 11:39:23.938 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Nov-2017 11:39:24.029 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:39:24.038 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:39:24.043 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:39:24.044 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:39:24.044 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 376 ms
+08-Nov-2017 11:39:24.064 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Nov-2017 11:39:24.064 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+08-Nov-2017 11:39:24.070 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+08-Nov-2017 11:39:24.291 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [220] ms
+08-Nov-2017 11:39:24.291 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+08-Nov-2017 11:39:24.333 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [41] ms
+08-Nov-2017 11:39:24.333 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+08-Nov-2017 11:39:24.352 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [19] ms
+08-Nov-2017 11:39:24.352 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+08-Nov-2017 11:39:24.370 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [18] ms
+08-Nov-2017 11:39:24.370 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+08-Nov-2017 11:39:24.383 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [13] ms
+08-Nov-2017 11:39:24.384 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+08-Nov-2017 11:39:24.410 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [25] ms
+08-Nov-2017 11:39:24.410 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+08-Nov-2017 11:39:24.426 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [16] ms
+08-Nov-2017 11:39:24.427 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+08-Nov-2017 11:39:24.732 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [306] ms
+08-Nov-2017 11:39:24.734 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:39:24.750 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:39:24.752 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 707 ms
+08-Nov-2017 11:41:34.799 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement du contexte [/input] a démarré
+08-Nov-2017 11:41:34.835 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.core.StandardContext.reload Le rechargement de ce contexte est terminé
+08-Nov-2017 11:41:38.992 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Nov-2017 11:41:38.992 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:41:39.044 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:41:39.095 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Nov-2017 11:41:39.123 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:41:39.124 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:41:39.125 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:41:39.126 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:41:41.166 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+08-Nov-2017 11:41:41.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+08-Nov-2017 11:41:41.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+08-Nov-2017 11:41:41.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Nov-2017 11:41:41.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+08-Nov-2017 11:41:41.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Nov-2017 11:41:41.168 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:41:41.169 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:41:41.170 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+08-Nov-2017 11:41:41.170 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Nov-2017 11:41:41.258 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:41:41.267 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:41:41.272 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:41:41.273 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:41:41.273 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 370 ms
+08-Nov-2017 11:41:41.293 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Nov-2017 11:41:41.294 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+08-Nov-2017 11:41:41.299 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+08-Nov-2017 11:41:41.513 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [212] ms
+08-Nov-2017 11:41:41.513 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+08-Nov-2017 11:41:41.549 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [36] ms
+08-Nov-2017 11:41:41.549 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+08-Nov-2017 11:41:41.567 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [18] ms
+08-Nov-2017 11:41:41.567 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+08-Nov-2017 11:41:41.584 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [17] ms
+08-Nov-2017 11:41:41.584 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+08-Nov-2017 11:41:41.596 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [12] ms
+08-Nov-2017 11:41:41.596 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+08-Nov-2017 11:41:41.621 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [24] ms
+08-Nov-2017 11:41:41.621 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+08-Nov-2017 11:41:41.636 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [15] ms
+08-Nov-2017 11:41:41.637 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+08-Nov-2017 11:41:41.928 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [292] ms
+08-Nov-2017 11:41:41.930 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:41:41.942 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:41:41.943 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 670 ms
+08-Nov-2017 11:48:14.353 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Nov-2017 11:48:14.354 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:48:14.406 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:48:14.457 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Nov-2017 11:48:14.487 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:48:14.488 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:48:14.492 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:48:14.493 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:48:16.282 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:48:16.284 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+08-Nov-2017 11:48:16.285 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Nov-2017 11:48:16.375 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:48:16.384 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:48:16.390 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:48:16.390 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:48:16.391 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 371 ms
+08-Nov-2017 11:48:16.412 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Nov-2017 11:48:16.412 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+08-Nov-2017 11:48:16.418 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+08-Nov-2017 11:48:16.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [216] ms
+08-Nov-2017 11:48:16.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+08-Nov-2017 11:48:16.671 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [35] ms
+08-Nov-2017 11:48:16.671 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+08-Nov-2017 11:48:16.688 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [17] ms
+08-Nov-2017 11:48:16.689 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+08-Nov-2017 11:48:16.705 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [16] ms
+08-Nov-2017 11:48:16.705 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+08-Nov-2017 11:48:16.718 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [12] ms
+08-Nov-2017 11:48:16.718 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+08-Nov-2017 11:48:16.742 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [24] ms
+08-Nov-2017 11:48:16.742 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+08-Nov-2017 11:48:16.758 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [15] ms
+08-Nov-2017 11:48:16.758 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+08-Nov-2017 11:48:17.046 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [288] ms
+08-Nov-2017 11:48:17.049 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:48:17.054 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:48:17.055 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 663 ms
+08-Nov-2017 11:53:42.924 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+08-Nov-2017 11:53:42.925 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:53:42.978 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:53:43.028 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Nov-2017 11:53:43.060 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:53:43.062 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:53:43.064 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:53:43.064 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:59:25.438 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            3.16.0-4-amd64
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/jdk-8-oracle-x64/jre
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_71-b15
+08-Nov-2017 11:59:25.440 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/infoetu/vieiras/tomcat
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/infoetu/vieiras/tomcat/conf/logging.properties
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/infoetu/vieiras/tomcat
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/infoetu/vieiras/tomcat/temp
+08-Nov-2017 11:59:25.441 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+08-Nov-2017 11:59:25.533 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:59:25.541 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:59:25.547 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:59:25.547 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+08-Nov-2017 11:59:25.548 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 373 ms
+08-Nov-2017 11:59:25.568 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+08-Nov-2017 11:59:25.568 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+08-Nov-2017 11:59:25.575 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/ROOT] de l'application web
+08-Nov-2017 11:59:25.797 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/ROOT] has finished in [220] ms
+08-Nov-2017 11:59:25.797 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/input] de l'application web
+08-Nov-2017 11:59:25.835 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/input] has finished in [38] ms
+08-Nov-2017 11:59:25.835 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/select] de l'application web
+08-Nov-2017 11:59:25.857 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/select] has finished in [22] ms
+08-Nov-2017 11:59:25.858 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/vide] de l'application web
+08-Nov-2017 11:59:25.877 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/vide] has finished in [19] ms
+08-Nov-2017 11:59:25.878 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/docs] de l'application web
+08-Nov-2017 11:59:25.891 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/docs] has finished in [13] ms
+08-Nov-2017 11:59:25.892 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/manager] de l'application web
+08-Nov-2017 11:59:25.918 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/manager] has finished in [26] ms
+08-Nov-2017 11:59:25.918 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/host-manager] de l'application web
+08-Nov-2017 11:59:25.936 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/host-manager] has finished in [18] ms
+08-Nov-2017 11:59:25.936 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/infoetu/vieiras/tomcat/webapps/examples] de l'application web
+08-Nov-2017 11:59:26.239 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/infoetu/vieiras/tomcat/webapps/examples] has finished in [303] ms
+08-Nov-2017 11:59:26.241 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 11:59:26.246 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 11:59:26.247 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 699 ms
+08-Nov-2017 21:00:02.017 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 21:00:02.023 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 21:00:02.024 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+08-Nov-2017 21:00:02.095 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 21:00:02.116 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+08-Nov-2017 21:00:02.118 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+08-Nov-2017 21:00:02.119 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]

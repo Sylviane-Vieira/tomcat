@@ -1,0 +1,604 @@
+21-Nov-2017 10:53:17.249 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 10:53:17.249 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 10:58:21.871 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 10:58:21.871 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 10:58:29.362 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 10:58:29.362 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:23:45.295 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:23:45.295 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:23:49.084 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:23:49.085 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:24:49.819 GRAVE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [/compteur.jsp (line: [4], column: [16]) Symbole égal (equal) attendu] with root cause
+ org.apache.jasper.JasperException: /compteur.jsp (line: [4], column: [16]) Symbole égal (equal) attendu
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:232)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:196)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:460)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:401)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:384)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:26:32.097 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:26:32.098 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:26:35.320 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:26:35.320 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:26:37.121 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [/compteur.jsp (line: [5], column: [1]) Symbole guillemet (quote) attendu] with root cause
+ org.apache.jasper.JasperException: /compteur.jsp (line: [5], column: [1]) Symbole guillemet (quote) attendu
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:237)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:196)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:460)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:401)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:384)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:26:38.053 GRAVE [http-nio-8080-exec-2] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.compteur_jsp] with root cause
+ java.lang.ClassNotFoundException: org.apache.jsp.compteur_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:128)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:59)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:128)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:381)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:26:39.772 GRAVE [http-nio-8080-exec-3] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [org.apache.jasper.JasperException: java.lang.ClassNotFoundException: org.apache.jsp.compteur_jsp] with root cause
+ java.lang.ClassNotFoundException: org.apache.jsp.compteur_jsp
+	at java.net.URLClassLoader.findClass(URLClassLoader.java:381)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:128)
+	at org.apache.jasper.servlet.JasperLoader.loadClass(JasperLoader.java:59)
+	at org.apache.catalina.core.DefaultInstanceManager.newInstance(DefaultInstanceManager.java:128)
+	at org.apache.jasper.servlet.JspServletWrapper.getServlet(JspServletWrapper.java:172)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:381)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:27:39.543 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:27:39.543 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:27:42.197 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:27:42.197 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:27:43.420 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [/compteur.jsp (line: [4], column: [17]) Symbole guillemet (quote) attendu] with root cause
+ org.apache.jasper.JasperException: /compteur.jsp (line: [4], column: [17]) Symbole guillemet (quote) attendu
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:237)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:196)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:460)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:401)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:384)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:28:07.318 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:28:07.318 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:28:09.847 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:28:09.847 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:28:11.907 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [/compteur.jsp (line: [6], column: [33]) Symbole égal (equal) attendu] with root cause
+ org.apache.jasper.JasperException: /compteur.jsp (line: [6], column: [33]) Symbole égal (equal) attendu
+	at org.apache.jasper.compiler.DefaultErrorHandler.jspError(DefaultErrorHandler.java:42)
+	at org.apache.jasper.compiler.ErrorDispatcher.dispatch(ErrorDispatcher.java:292)
+	at org.apache.jasper.compiler.ErrorDispatcher.jspError(ErrorDispatcher.java:98)
+	at org.apache.jasper.compiler.Parser.parseAttribute(Parser.java:232)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:168)
+	at org.apache.jasper.compiler.Parser.parseAttributes(Parser.java:196)
+	at org.apache.jasper.compiler.ParserController.getPageEncodingForJspSyntax(ParserController.java:460)
+	at org.apache.jasper.compiler.ParserController.determineSyntaxAndEncoding(ParserController.java:401)
+	at org.apache.jasper.compiler.ParserController.doParse(ParserController.java:200)
+	at org.apache.jasper.compiler.ParserController.parseDirectives(ParserController.java:127)
+	at org.apache.jasper.compiler.Compiler.generateJava(Compiler.java:202)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:384)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:28:53.767 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:28:53.767 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:28:55.862 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:28:55.862 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:28:58.644 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method HttpJspBase._jspService(HttpServletRequest, HttpServletResponse)
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getPackageImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getClassImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceDependent.getDependants()
+
+An error occurred at line: [35] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Cannot define static initializer in inner type compteur_jsp.Cpt
+
+An error occurred at line: [108] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (compteur_jsp.Cpt, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Une erreur s'est produite à la ligne: [22] dans le fichier jsp: [/compteur.jsp]
+local cannot be resolved
+19: global = new Cpt();
+20: application.setAttribute("global", global);
+21: }
+22: local.incr();
+23: %>
+24: 
+25: <h1>
+
+
+Une erreur s'est produite à la ligne: [26] dans le fichier jsp: [/compteur.jsp]
+local cannot be resolved
+23: %>
+24: 
+25: <h1>
+26: Vous avez accédé <%= local.getVal() %> fois à cette page sur les <%= global.getVal() %> accès effectués.
+27: </h1>
+28: </body>
+29: </html>
+
+
+An error occurred at line: [164] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method HttpJspBase._jspService(HttpServletRequest, HttpServletResponse)
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getPackageImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getClassImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceDependent.getDependants()
+
+An error occurred at line: [35] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Cannot define static initializer in inner type compteur_jsp.Cpt
+
+An error occurred at line: [108] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (compteur_jsp.Cpt, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Une erreur s'est produite à la ligne: [22] dans le fichier jsp: [/compteur.jsp]
+local cannot be resolved
+19: global = new Cpt();
+20: application.setAttribute("global", global);
+21: }
+22: local.incr();
+23: %>
+24: 
+25: <h1>
+
+
+Une erreur s'est produite à la ligne: [26] dans le fichier jsp: [/compteur.jsp]
+local cannot be resolved
+23: %>
+24: 
+25: <h1>
+26: Vous avez accédé <%= local.getVal() %> fois à cette page sur les <%= global.getVal() %> accès effectués.
+27: </h1>
+28: </body>
+29: </html>
+
+
+An error occurred at line: [164] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:30:58.241 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:30:58.241 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:31:00.701 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:31:00.701 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:31:02.678 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method HttpJspBase._jspService(HttpServletRequest, HttpServletResponse)
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getPackageImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getClassImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceDependent.getDependants()
+
+An error occurred at line: [35] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Cannot define static initializer in inner type compteur_jsp.Cpt
+
+An error occurred at line: [108] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (compteur_jsp.Cpt, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Une erreur s'est produite à la ligne: [27] dans le fichier jsp: [/compteur.jsp]
+locall cannot be resolved to a variable
+24: 
+25: <%
+26: Cpt local = (Cpt)session.getAttribute("local");
+27: if (locall == null) {
+28: local = new Cpt();
+29: session.setAttribute("local", local);
+30: }
+
+
+An error occurred at line: [174] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method HttpJspBase._jspService(HttpServletRequest, HttpServletResponse)
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getPackageImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getClassImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceDependent.getDependants()
+
+An error occurred at line: [35] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Cannot define static initializer in inner type compteur_jsp.Cpt
+
+An error occurred at line: [108] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (compteur_jsp.Cpt, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+Une erreur s'est produite à la ligne: [27] dans le fichier jsp: [/compteur.jsp]
+locall cannot be resolved to a variable
+24: 
+25: <%
+26: Cpt local = (Cpt)session.getAttribute("local");
+27: if (locall == null) {
+28: local = new Cpt();
+29: session.setAttribute("local", local);
+30: }
+
+
+An error occurred at line: [174] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:31:29.413 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:31:29.413 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:31:31.867 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:31:31.867 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:31:33.492 GRAVE [http-nio-8080-exec-1] org.apache.catalina.core.StandardWrapperValve.invoke Servlet.service() for servlet [jsp] in context with path [/tp9] threw exception [Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method HttpJspBase._jspService(HttpServletRequest, HttpServletResponse)
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getPackageImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getClassImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceDependent.getDependants()
+
+An error occurred at line: [35] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Cannot define static initializer in inner type compteur_jsp.Cpt
+
+An error occurred at line: [108] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (compteur_jsp.Cpt, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+An error occurred at line: [174] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:] with root cause
+ org.apache.jasper.JasperException: Impossible de compiler la classe pour la JSP: 
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method HttpJspBase._jspService(HttpServletRequest, HttpServletResponse)
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getPackageImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceImports.getClassImports()
+
+An error occurred at line: [16] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The type compteur_jsp must implement the inherited abstract method JspSourceDependent.getDependants()
+
+An error occurred at line: [35] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Cannot define static initializer in inner type compteur_jsp.Cpt
+
+An error occurred at line: [108] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+The method getPageContext(Servlet, ServletRequest, ServletResponse, String, boolean, int, boolean) in the type JspFactory is not applicable for the arguments (compteur_jsp.Cpt, HttpServletRequest, HttpServletResponse, null, boolean, int, boolean)
+
+An error occurred at line: [174] in the generated java file: [/home/infoetu/vieiras/tomcat/work/Catalina/localhost/tp9/org/apache/jsp/compteur_jsp.java]
+Syntax error, insert "}" to complete ClassBody
+
+Stacktrace:
+	at org.apache.jasper.compiler.DefaultErrorHandler.javacError(DefaultErrorHandler.java:103)
+	at org.apache.jasper.compiler.ErrorDispatcher.javacError(ErrorDispatcher.java:213)
+	at org.apache.jasper.compiler.JDTCompiler.generateClass(JDTCompiler.java:458)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:389)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:361)
+	at org.apache.jasper.compiler.Compiler.compile(Compiler.java:345)
+	at org.apache.jasper.JspCompilationContext.compile(JspCompilationContext.java:603)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:369)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+
+21-Nov-2017 11:33:11.575 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:33:11.575 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:33:15.198 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:33:15.199 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:34:44.207 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:34:44.207 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:34:46.813 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:34:46.813 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 11:35:27.928 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 11:35:27.928 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+21-Nov-2017 11:35:30.385 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+21-Nov-2017 11:35:30.385 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
+21-Nov-2017 14:35:22.566 INFOS [Thread-5] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
+21-Nov-2017 14:35:22.566 INFOS [Thread-5] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
