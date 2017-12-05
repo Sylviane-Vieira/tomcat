@@ -2337,3 +2337,1091 @@ Caused by: java.net.BindException: Adresse déjà utilisée
 05-Dec-2017 17:00:25.087 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
 05-Dec-2017 17:00:25.097 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
 05-Dec-2017 17:00:25.103 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 1197 ms
+05-Dec-2017 20:07:37.944 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 20:07:37.981 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 20:07:37.982 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 20:07:37.982 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 20:07:37.983 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 20:07:37.983 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 20:07:37.984 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 20:07:37.984 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 20:07:37.984 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 20:07:37.995 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 20:07:37.996 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 20:07:37.997 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 20:07:38.000 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 20:07:38.001 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 20:07:38.002 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 20:07:38.006 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 20:07:38.007 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 20:07:38.008 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 20:07:38.011 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 20:07:38.628 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:07:38.846 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:07:38.903 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:07:38.910 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:07:38.915 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3740 ms
+05-Dec-2017 20:07:39.146 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 20:07:39.148 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 20:07:39.239 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 20:07:42.316 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:42.661 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [3 394] ms
+05-Dec-2017 20:07:42.663 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 20:07:42.979 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:43.031 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [367] ms
+05-Dec-2017 20:07:43.033 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 20:07:43.517 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:43.525 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [492] ms
+05-Dec-2017 20:07:43.527 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 20:07:44.041 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:44.053 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [526] ms
+05-Dec-2017 20:07:44.055 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 20:07:44.330 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:44.340 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [285] ms
+05-Dec-2017 20:07:44.342 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 20:07:44.638 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:44.656 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [314] ms
+05-Dec-2017 20:07:44.658 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 20:07:44.897 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:44.904 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [246] ms
+05-Dec-2017 20:07:44.905 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 20:07:45.149 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:45.158 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [252] ms
+05-Dec-2017 20:07:45.159 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 20:07:45.421 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:45.431 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [271] ms
+05-Dec-2017 20:07:45.432 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 20:07:47.072 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:07:47.396 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [1 964] ms
+05-Dec-2017 20:07:47.413 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:07:47.449 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:07:47.483 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 8566 ms
+05-Dec-2017 20:20:32.703 GRAVE [http-nio-8080-exec-5] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:21:08.105 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10 (copie)] de l'application web
+05-Dec-2017 20:21:08.362 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:21:08.376 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10 (copie)] has finished in [270] ms
+05-Dec-2017 20:21:48.905 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/tp10 (copie)]
+05-Dec-2017 20:21:49.065 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 20:21:49.276 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:21:49.284 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [219] ms
+05-Dec-2017 20:23:33.852 GRAVE [http-nio-8080-exec-7] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:23:44.200 GRAVE [http-nio-8080-exec-6] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:24:26.627 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 20:24:26.632 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:24:26.688 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:24:26.696 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 20:24:26.884 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:24:26.897 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:24:26.906 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:24:26.918 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:24:38.500 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 20:24:38.514 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 20:24:38.515 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 20:24:38.515 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 20:24:38.516 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 20:24:38.516 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 20:24:38.517 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 20:24:38.517 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 20:24:38.518 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 20:24:38.518 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 20:24:38.524 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 20:24:38.526 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 20:24:38.529 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 20:24:38.529 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 20:24:38.530 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 20:24:38.533 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 20:24:38.534 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 20:24:38.536 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 20:24:38.538 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 20:24:38.974 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:24:39.041 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:24:39.075 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:24:39.080 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:24:39.081 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2749 ms
+05-Dec-2017 20:24:39.268 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 20:24:39.270 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 20:24:39.324 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 20:24:41.368 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:41.652 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [2 321] ms
+05-Dec-2017 20:24:41.654 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 20:24:42.176 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:42.214 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [559] ms
+05-Dec-2017 20:24:42.215 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 20:24:42.658 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:42.679 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [464] ms
+05-Dec-2017 20:24:42.689 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 20:24:42.964 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:42.978 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [288] ms
+05-Dec-2017 20:24:42.979 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 20:24:43.280 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:43.291 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [312] ms
+05-Dec-2017 20:24:43.293 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 20:24:43.666 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:43.685 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [392] ms
+05-Dec-2017 20:24:43.687 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 20:24:44.034 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:44.053 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [366] ms
+05-Dec-2017 20:24:44.054 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 20:24:44.413 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:44.427 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [372] ms
+05-Dec-2017 20:24:44.430 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 20:24:44.722 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:44.730 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [301] ms
+05-Dec-2017 20:24:44.732 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 20:24:45.046 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:45.055 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [322] ms
+05-Dec-2017 20:24:45.056 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 20:24:46.043 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:24:46.265 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [1 209] ms
+05-Dec-2017 20:24:46.286 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:24:46.329 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:24:46.343 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 7260 ms
+05-Dec-2017 20:24:56.389 GRAVE [http-nio-8080-exec-1] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:25:19.991 GRAVE [http-nio-8080-exec-3] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:26:19.501 GRAVE [http-nio-8080-exec-4] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:32:10.913 GRAVE [http-nio-8080-exec-7] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:32:14.573 GRAVE [http-nio-8080-exec-8] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:32:36.364 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 20:32:36.374 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:32:36.431 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:32:36.435 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 20:32:36.683 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:32:36.699 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:32:36.712 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:32:36.714 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:32:43.375 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 20:32:43.389 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 20:32:43.389 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 20:32:43.390 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 20:32:43.391 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 20:32:43.391 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 20:32:43.391 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 20:32:43.392 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 20:32:43.393 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 20:32:43.393 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 20:32:43.397 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 20:32:43.404 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 20:32:43.407 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 20:32:43.409 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 20:32:43.413 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 20:32:43.413 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 20:32:43.414 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 20:32:43.415 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 20:32:43.416 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 20:32:43.956 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:32:44.167 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:32:44.240 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:32:44.255 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:32:44.264 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3323 ms
+05-Dec-2017 20:32:44.511 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 20:32:44.512 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 20:32:44.677 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 20:32:47.595 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:47.941 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [3 278] ms
+05-Dec-2017 20:32:47.945 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 20:32:48.438 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:48.483 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [538] ms
+05-Dec-2017 20:32:48.485 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 20:32:48.918 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:48.960 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [476] ms
+05-Dec-2017 20:32:48.962 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 20:32:49.478 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:49.491 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [530] ms
+05-Dec-2017 20:32:49.497 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 20:32:50.017 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:50.047 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [549] ms
+05-Dec-2017 20:32:50.051 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 20:32:50.811 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:50.843 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [791] ms
+05-Dec-2017 20:32:50.851 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 20:32:51.460 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:51.484 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [634] ms
+05-Dec-2017 20:32:51.488 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 20:32:51.983 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:52.009 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [520] ms
+05-Dec-2017 20:32:52.012 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 20:32:52.571 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:52.592 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [580] ms
+05-Dec-2017 20:32:52.594 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 20:32:53.273 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:53.307 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [712] ms
+05-Dec-2017 20:32:53.309 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 20:32:55.181 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:32:55.537 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [2 228] ms
+05-Dec-2017 20:32:55.587 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:32:55.735 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:32:55.854 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 11588 ms
+05-Dec-2017 20:33:02.016 GRAVE [http-nio-8080-exec-1] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:33:02.447 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 20:33:02.448 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:33:02.458 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:33:02.463 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 20:33:02.728 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:33:02.737 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:33:02.751 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:33:02.755 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:33:10.964 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 20:33:10.979 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 20:33:10.980 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 20:33:10.980 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 20:33:10.981 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 20:33:10.982 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 20:33:10.983 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 20:33:10.983 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 20:33:10.984 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 20:33:10.984 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 20:33:10.985 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 20:33:10.986 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 20:33:10.991 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 20:33:10.991 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 20:33:10.992 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 20:33:10.995 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 20:33:10.995 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 20:33:10.996 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 20:33:10.996 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 20:33:11.487 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:33:11.556 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:33:11.591 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:33:11.600 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:33:11.605 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2699 ms
+05-Dec-2017 20:33:11.785 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 20:33:11.786 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 20:33:11.844 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 20:33:14.290 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:14.597 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [2 747] ms
+05-Dec-2017 20:33:14.599 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 20:33:15.349 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:15.400 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [801] ms
+05-Dec-2017 20:33:15.401 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 20:33:16.108 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:16.127 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [725] ms
+05-Dec-2017 20:33:16.129 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 20:33:16.427 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:16.440 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [310] ms
+05-Dec-2017 20:33:16.442 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 20:33:16.752 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:16.763 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [321] ms
+05-Dec-2017 20:33:16.764 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 20:33:17.290 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:17.303 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [539] ms
+05-Dec-2017 20:33:17.304 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 20:33:17.645 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:17.659 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [354] ms
+05-Dec-2017 20:33:17.661 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 20:33:18.029 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:18.046 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [385] ms
+05-Dec-2017 20:33:18.063 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 20:33:18.427 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:18.440 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [377] ms
+05-Dec-2017 20:33:18.447 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 20:33:18.954 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:18.970 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [517] ms
+05-Dec-2017 20:33:18.971 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 20:33:20.687 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:33:20.998 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [2 026] ms
+05-Dec-2017 20:33:21.016 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:33:21.062 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:33:21.127 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 9512 ms
+05-Dec-2017 20:33:22.012 GRAVE [http-nio-8080-exec-1] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:36:08.123 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 20:36:08.125 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:36:08.133 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:36:08.148 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 20:36:08.404 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:36:08.417 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:36:08.426 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:36:08.429 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:36:19.889 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 20:36:19.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 20:36:19.909 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 20:36:19.910 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 20:36:19.910 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 20:36:19.911 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 20:36:19.911 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 20:36:19.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 20:36:19.912 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 20:36:19.913 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 20:36:19.914 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 20:36:19.915 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 20:36:19.916 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 20:36:19.916 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 20:36:19.916 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 20:36:19.917 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 20:36:19.917 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 20:36:19.918 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 20:36:19.919 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 20:36:20.338 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:36:20.409 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:36:20.441 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:36:20.448 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 20:36:20.450 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 2600 ms
+05-Dec-2017 20:36:20.589 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 20:36:20.591 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 20:36:20.625 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 20:36:22.787 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:23.032 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [2 402] ms
+05-Dec-2017 20:36:23.034 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 20:36:23.401 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:23.424 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [391] ms
+05-Dec-2017 20:36:23.426 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 20:36:23.859 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:23.870 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [443] ms
+05-Dec-2017 20:36:23.871 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 20:36:24.136 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:24.145 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [273] ms
+05-Dec-2017 20:36:24.146 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 20:36:24.652 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:24.672 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [526] ms
+05-Dec-2017 20:36:24.675 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 20:36:25.065 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:25.076 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [402] ms
+05-Dec-2017 20:36:25.082 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 20:36:25.476 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:25.488 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [410] ms
+05-Dec-2017 20:36:25.489 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 20:36:25.770 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:25.782 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [292] ms
+05-Dec-2017 20:36:25.794 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 20:36:26.272 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:26.291 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [497] ms
+05-Dec-2017 20:36:26.293 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 20:36:26.767 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:26.794 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [500] ms
+05-Dec-2017 20:36:26.795 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 20:36:28.587 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 20:36:28.825 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [2 030] ms
+05-Dec-2017 20:36:28.842 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 20:36:28.883 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 20:36:28.946 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 8494 ms
+05-Dec-2017 20:36:33.743 GRAVE [http-nio-8080-exec-1] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:38:31.389 GRAVE [http-nio-8080-exec-2] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psql
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 20:38:59.450 GRAVE [http-nio-8080-exec-3] org.postgresql.Driver.connect Error in url: jdbc:postgresql://sylviane
+05-Dec-2017 21:38:25.240 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 21:38:25.243 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:38:25.302 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:38:25.306 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 21:38:25.468 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:38:25.492 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:38:25.507 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:38:25.511 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:38:31.078 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 21:38:31.095 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 21:38:31.096 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 21:38:31.097 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 21:38:31.097 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 21:38:31.107 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 21:38:31.108 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 21:38:31.109 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 21:38:31.109 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 21:38:31.110 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 21:38:31.124 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 21:38:31.126 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 21:38:31.134 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 21:38:31.134 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 21:38:31.135 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 21:38:31.144 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 21:38:31.145 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 21:38:31.145 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 21:38:31.154 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 21:38:31.984 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:38:32.050 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 21:38:32.085 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:38:32.101 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 21:38:32.107 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 4036 ms
+05-Dec-2017 21:38:32.433 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 21:38:32.443 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 21:38:32.500 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 21:38:36.293 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:36.830 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [4 324] ms
+05-Dec-2017 21:38:36.831 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 21:38:37.404 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:37.449 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [618] ms
+05-Dec-2017 21:38:37.451 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 21:38:37.864 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:37.885 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [433] ms
+05-Dec-2017 21:38:37.890 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 21:38:38.222 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:38.237 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [346] ms
+05-Dec-2017 21:38:38.239 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 21:38:38.614 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:38.635 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [395] ms
+05-Dec-2017 21:38:38.655 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 21:38:39.243 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:39.267 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [609] ms
+05-Dec-2017 21:38:39.269 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 21:38:39.578 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:39.588 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [318] ms
+05-Dec-2017 21:38:39.592 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 21:38:39.899 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:39.910 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [318] ms
+05-Dec-2017 21:38:39.912 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 21:38:40.304 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:40.313 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [401] ms
+05-Dec-2017 21:38:40.314 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 21:38:40.697 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:40.708 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [394] ms
+05-Dec-2017 21:38:40.709 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 21:38:42.088 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:38:42.383 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [1 672] ms
+05-Dec-2017 21:38:42.422 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:38:42.505 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:38:42.581 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 10473 ms
+05-Dec-2017 21:38:43.677 GRAVE [http-nio-8080-exec-1] org.postgresql.Driver.connect Connection error: 
+ org.postgresql.util.PSQLException: La tentative de connexion a échoué.
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:275)
+	at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:49)
+	at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:194)
+	at org.postgresql.Driver.makeConnection(Driver.java:450)
+	at org.postgresql.Driver.connect(Driver.java:252)
+	at java.sql.DriverManager.getConnection(DriverManager.java:664)
+	at java.sql.DriverManager.getConnection(DriverManager.java:247)
+	at org.apache.jsp.annuaire_jsp._jspService(annuaire_jsp.java:123)
+	at org.apache.jasper.runtime.HttpJspBase.service(HttpJspBase.java:70)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.jasper.servlet.JspServletWrapper.service(JspServletWrapper.java:444)
+	at org.apache.jasper.servlet.JspServlet.serviceJspFile(JspServlet.java:385)
+	at org.apache.jasper.servlet.JspServlet.service(JspServlet.java:329)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:199)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:475)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:81)
+	at org.apache.catalina.valves.AbstractAccessLogValve.invoke(AbstractAccessLogValve.java:651)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:500)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:754)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1376)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: java.net.UnknownHostException: psqlserv
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:184)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:392)
+	at java.net.Socket.connect(Socket.java:589)
+	at org.postgresql.core.PGStream.<init>(PGStream.java:68)
+	at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:144)
+	... 35 more
+
+05-Dec-2017 21:49:27.171 INFOS [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+05-Dec-2017 21:49:27.173 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:49:27.182 INFOS [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:49:27.235 INFOS [main] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 21:49:27.465 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:49:27.474 INFOS [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:49:27.493 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:49:27.499 INFOS [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:51:04.332 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/9.0.1
+05-Dec-2017 21:51:04.342 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Sep 27 2017 17:31:52 UTC
+05-Dec-2017 21:51:04.342 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         9.0.1.0
+05-Dec-2017 21:51:04.343 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+05-Dec-2017 21:51:04.343 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            4.10.0-40-generic
+05-Dec-2017 21:51:04.344 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+05-Dec-2017 21:51:04.344 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/lib/jvm/java-8-openjdk-amd64/jre
+05-Dec-2017 21:51:04.345 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_151-8u151-b12-0ubuntu0.16.04.2-b12
+05-Dec-2017 21:51:04.345 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+05-Dec-2017 21:51:04.346 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/sylviane/tomcat
+05-Dec-2017 21:51:04.346 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/sylviane/tomcat
+05-Dec-2017 21:51:04.347 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/sylviane/tomcat/conf/logging.properties
+05-Dec-2017 21:51:04.348 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+05-Dec-2017 21:51:04.349 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+05-Dec-2017 21:51:04.349 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+05-Dec-2017 21:51:04.350 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/sylviane/tomcat
+05-Dec-2017 21:51:04.350 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/sylviane/tomcat
+05-Dec-2017 21:51:04.351 INFOS [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/sylviane/tomcat/temp
+05-Dec-2017 21:51:04.352 INFOS [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib/x86_64-linux-gnu/jni:/lib/x86_64-linux-gnu:/usr/lib/x86_64-linux-gnu:/usr/lib/jni:/lib:/usr/lib]
+05-Dec-2017 21:51:04.794 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:51:04.851 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 21:51:04.887 INFOS [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:51:04.895 INFOS [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+05-Dec-2017 21:51:04.897 INFOS [main] org.apache.catalina.startup.Catalina.load Initialization processed in 3063 ms
+05-Dec-2017 21:51:05.114 INFOS [main] org.apache.catalina.core.StandardService.startInternal Démarrage du service [Catalina]
+05-Dec-2017 21:51:05.118 INFOS [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/9.0.1
+05-Dec-2017 21:51:05.191 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
+05-Dec-2017 21:51:08.448 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:08.760 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [3 564] ms
+05-Dec-2017 21:51:08.761 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/manager] de l'application web
+05-Dec-2017 21:51:09.256 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:09.283 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/manager] has finished in [521] ms
+05-Dec-2017 21:51:09.285 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp9] de l'application web
+05-Dec-2017 21:51:09.571 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:09.583 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp9] has finished in [298] ms
+05-Dec-2017 21:51:09.585 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/ROOT] de l'application web
+05-Dec-2017 21:51:09.876 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:09.892 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/ROOT] has finished in [305] ms
+05-Dec-2017 21:51:09.893 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10] de l'application web
+05-Dec-2017 21:51:10.284 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:10.307 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10] has finished in [414] ms
+05-Dec-2017 21:51:10.309 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/vide] de l'application web
+05-Dec-2017 21:51:10.813 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:10.841 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/vide] has finished in [531] ms
+05-Dec-2017 21:51:10.843 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/select] de l'application web
+05-Dec-2017 21:51:11.290 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:11.303 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/select] has finished in [459] ms
+05-Dec-2017 21:51:11.305 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/docs] de l'application web
+05-Dec-2017 21:51:11.664 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:11.673 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/docs] has finished in [368] ms
+05-Dec-2017 21:51:11.674 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/host-manager] de l'application web
+05-Dec-2017 21:51:12.038 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:12.053 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/host-manager] has finished in [378] ms
+05-Dec-2017 21:51:12.054 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/input] de l'application web
+05-Dec-2017 21:51:12.573 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:12.600 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/input] has finished in [546] ms
+05-Dec-2017 21:51:12.602 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/examples] de l'application web
+05-Dec-2017 21:51:13.941 INFOS [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+05-Dec-2017 21:51:14.172 INFOS [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/examples] has finished in [1 570] ms
+05-Dec-2017 21:51:14.201 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 21:51:14.283 INFOS [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 21:51:14.346 INFOS [main] org.apache.catalina.startup.Catalina.start Server startup in 9448 ms
+05-Dec-2017 22:52:16.742 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.undeploy Repli (undeploy) de l'application web ayant pour chemin de contexte [/p10]
+05-Dec-2017 22:52:16.817 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/tp10 (copie)] de l'application web
+05-Dec-2017 22:52:17.349 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10 (copie)] has finished in [531] ms
