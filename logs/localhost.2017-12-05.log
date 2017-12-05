@@ -3752,3 +3752,5 @@ Stacktrace:
 
 05-Dec-2017 11:52:17.123 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextDestroyed()
 05-Dec-2017 11:52:17.123 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextDestroyed()
+05-Dec-2017 17:00:25.018 INFOS [main] org.apache.catalina.core.ApplicationContext.log ContextListener: contextInitialized()
+05-Dec-2017 17:00:25.018 INFOS [main] org.apache.catalina.core.ApplicationContext.log SessionListener: contextInitialized()
