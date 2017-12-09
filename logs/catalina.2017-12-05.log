@@ -1619,3 +1619,10 @@ Caused by: java.net.UnknownHostException: psqlserv
 05-Dec-2017 22:52:17.349 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/tp10 (copie)] has finished in [531] ms
 05-Dec-2017 22:54:37.421 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Déploiement du répertoire [/home/sylviane/tomcat/webapps/p10] de l'application web
 05-Dec-2017 22:54:37.973 INFOS [ContainerBackgroundProcessor[StandardEngine[Catalina]]] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/sylviane/tomcat/webapps/p10] has finished in [552] ms
+05-Dec-2017 23:01:07.787 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 23:01:07.864 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 23:01:07.878 INFOS [Thread-5] org.apache.catalina.core.StandardService.stopInternal Arrêt du service [Catalina]
+05-Dec-2017 23:01:09.507 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 23:01:09.572 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["ajp-nio-8009"]
+05-Dec-2017 23:01:09.631 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+05-Dec-2017 23:01:09.651 INFOS [Thread-5] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["ajp-nio-8009"]
